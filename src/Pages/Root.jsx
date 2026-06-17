@@ -10,7 +10,7 @@ const Root = () => {
       {/* Background */}
       <div className="fixed inset-0 -z-10">
         <DarkVeil
-          hueShift={0}
+          hueShift={228}
           noiseIntensity={0}
           scanlineIntensity={0}
           speed={0.5}
