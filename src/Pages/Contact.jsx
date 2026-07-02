@@ -56,16 +56,13 @@ const Contact = () => {
 
                 {/* Header */}
                 <div className="flex flex-col items-center text-center mb-16">
-                    <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full border border-white/15 bg-white/5 backdrop-blur-2xl mb-6">
-                        <span className="w-1.5 h-1.5 rounded-full bg-sky-400" />
-                        <span className="text-xs text-gray-300 tracking-wide">
-                            Get In Touch
-                        </span>
-                    </div>
+                    <p className="text-gray-400/80 text-sm font-mono tracking-widest mb-3 uppercase">
+                        Get In Touch
+                    </p>
 
-                    <h2 className="text-4xl lg:text-5xl font-bold tracking-tight">
-                        Let's build something{" "}
-                        <span className="text-sky-400">together</span>
+                    <h2 className="text-3xl lg:text-5xl font-bold leading-tight tracking-tight">
+                         Let's build something{" "}
+                        <span className="text-white/40">together</span>
                     </h2>
 
                     <p className="mt-4 text-gray-400 max-w-lg">

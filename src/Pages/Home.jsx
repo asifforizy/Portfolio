@@ -9,7 +9,7 @@ import heroImage from "../assets/2.png";
 
 const Home = () => {
   return (
-    <section className="relative min-h-screen flex items-center bg-transparent text-white py-20 lg:py-0">
+    <section id="home" className="relative min-h-screen flex items-center bg-transparent text-white py-20 lg:py-0">
       <div className="w-11/12 lg:w-9/12 mx-auto">
         {/* Main Content */}
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
