@@ -95,6 +95,11 @@ const Home = () => {
             {/* Buttons */}
             <div className="flex flex-wrap justify-center lg:justify-start items-center gap-4 mt-10">
               <button
+                onClick={() =>
+                  document.getElementById("projects")?.scrollIntoView({
+                    behavior: "smooth",
+                  })
+                }
                 className="
                   px-7 py-3.5
                   rounded-xl
@@ -148,11 +153,7 @@ const Home = () => {
                   link:
                     "https://www.linkedin.com/in/saifur-rahaman-a2561b271/",
                 },
-                {
-                  icon: <FaEnvelope size={16} />,
-                  label: "Email",
-                  link: "mailto:your.email@example.com",
-                },
+
               ].map((item) => (
                 <a
                   key={item.label}
