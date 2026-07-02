@@ -140,7 +140,7 @@ const Contact = () => {
                                     <FaGithub size={16} />
                                 </a>
                                 <a
-                                    href="https://linkedin.com/in/your-username"
+                                    href="https://www.linkedin.com/in/saifur-rahaman-a2561b271/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     aria-label="LinkedIn"

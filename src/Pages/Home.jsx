@@ -52,7 +52,7 @@ const Home = () => {
           {/* Text */}
           <div className="w-full lg:w-1/2 text-center lg:text-left order-2 lg:order-1">
             {/* Greeting */}
-            <p className="text-gray-500 text-base mb-3 tracking-wide">
+            <p className="text-gray-400 text-base mb-3 tracking-wide">
               Hello, I'm
             </p>
 
