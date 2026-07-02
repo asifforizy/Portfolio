@@ -16,15 +16,6 @@ const Home = () => {
 
           {/* Left Side */}
           <div>
-
-            {/* Status */}
-            <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full border border-white/15 bg-white/5 backdrop-blur-2xl mb-8">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-              <span className="text-xs text-gray-300 tracking-wide">
-                Available for work
-              </span>
-            </div>
-
             {/* Greeting */}
             <p className="text-gray-500 text-base mb-3 tracking-wide">
               Hello, I'm
@@ -32,8 +23,8 @@ const Home = () => {
 
             {/* Name */}
             <h1 className="text-5xl lg:text-[5.5rem] font-bold leading-[0.95] tracking-tight">
-              <span className="text-white block">Saifur R.</span>
-              <span className="text-white/40 block">Asif</span>
+              <span className="text-white block">Saifur R. <span className="text-white/40 ">Asif</span></span>
+              
             </h1>
 
             {/* Accent line — signature element */}
@@ -104,7 +95,7 @@ const Home = () => {
                   hover:text-white
                 "
               >
-                Contact Me
+                Download Resume
               </button>
 
             </div>
@@ -113,13 +104,27 @@ const Home = () => {
             <div className="flex gap-3 mt-10">
 
               {[
-                { icon: <FaGithub size={16} />, label: "GitHub" },
-                { icon: <FaLinkedin size={16} />, label: "LinkedIn" },
-                { icon: <FaEnvelope size={16} />, label: "Email" },
+                {
+                  icon: <FaGithub size={16} />,
+                  label: "GitHub",
+                  link: "https://github.com/asifforizy",
+                },
+                {
+                  icon: <FaLinkedin size={16} />,
+                  label: "LinkedIn",
+                  link: "https://www.linkedin.com/in/saifur-rahaman-a2561b271/",
+                },
+                {
+                  icon: <FaEnvelope size={16} />,
+                  label: "Email",
+                  link: "mailto:your.email@example.com",
+                },
               ].map((item) => (
                 <a
                   key={item.label}
-                  href="#"
+                  href={item.link}
+                  target={item.label !== "Email" ? "_blank" : undefined}
+                  rel={item.label !== "Email" ? "noopener noreferrer" : undefined}
                   aria-label={item.label}
                   className="
                     w-10 h-10
