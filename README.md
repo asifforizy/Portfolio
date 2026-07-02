@@ -1,16 +1,46 @@
-# React + Vite
+# 📱 Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing projects, skills, and professional experience.
 
-Currently, two official plugins are available:
+**🌐 Live Demo:** [https://asifforizy.netlify.app/](https://asifforizy.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📋 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio is a beautifully designed web application built with JavaScript to highlight my development skills, projects, and professional journey. It features a clean, modern interface with smooth interactions and responsive design that works seamlessly across all devices.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- **Responsive Design** - Fully responsive layout that works on desktop, tablet, and mobile devices
+- **Modern UI** - Clean and professional user interface with smooth animations
+- **Project Showcase** - Detailed project cards with descriptions and links
+- **Skills Section** - Display of technical skills and competencies
+- **Contact Information** - Easy ways to get in touch
+- **Performance Optimized** - Fast loading times and smooth interactions
+
+---
+
+## 🛠️ Tech Stack
+
+- **JavaScript** (99.3%) - Core functionality and interactions
+- **HTML** - Structure and semantic markup
+- **CSS** - Styling and responsive design
+- **Netlify** - Hosting platform
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js (optional, depending on build setup)
+- A modern web browser
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/asifforizy/Portfolio.git
+   cd Portfolio
