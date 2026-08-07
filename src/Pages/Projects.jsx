@@ -12,11 +12,11 @@ const projects = [
     },
     {
         id: 2,
-        title: "WarmPaws",
-        category: "Personal · MERN",
+        title: "RentNest",
+        category: "Backend · Express.js/Typescript",
         year: "2026",
-        image: "https://i.ibb.co/KzDGy10x/Screenshot-2026-07-02-191816.png",
-        link: "https://warmpawsxauth.web.app/",
+        image: "https://i.ibb.co/BVm5mXgm/Screenshot-2026-08-07-105531.png",
+        link: "https://github.com/asifforizy/RentNest",
     },
     {
         id: 3,
@@ -37,11 +37,11 @@ const projects = [
     },
     {
         id: 5,
-        title: "Select your Eleven",
+        title: "WarmPaws",
         category: "Personal · React",
-        year: "2025",
-        image: "https://i.ibb.co/SD5dR9x0/Screenshot-2026-07-02-192632.png",
-        link: "https://select-you-eleven-bpl.netlify.app/",
+        year: "2026",
+        image: "https://i.ibb.co/KzDGy10x/Screenshot-2026-07-02-191816.png",
+        link: "https://warmpawsxauth.web.app/",
     },
 ];
 
