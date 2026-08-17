@@ -152,7 +152,7 @@ const Home = () => {
                   label:
                     "LinkedIn",
                   link:
-                    "https://www.linkedin.com/in/saifur-rahaman-a2561b271/",
+                    "https://www.linkedin.com/in/asif-forizy/",
                 },
 
               ].map((item) => (
