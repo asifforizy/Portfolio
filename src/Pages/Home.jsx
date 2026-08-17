@@ -118,24 +118,25 @@ const Home = () => {
               >
                 View Projects
               </button>
-
-              <button
+              <a
+                href="/saifur-r-asif-resume.pdf"
+                download="Saifur R. Asif - Resume.pdf"
                 className="
-                  px-7 py-3.5
-                  rounded-xl
-                  border border-white/10
-                  text-gray-300
-                  text-sm
-                  font-medium
-                  tracking-wide
-                  transition-all
-                  duration-300
-                  hover:border-white/30
-                  hover:text-white
-                "
+              px-7 py-3.5
+              rounded-xl
+              border border-white/10
+              text-gray-300
+              text-sm
+              font-medium
+              tracking-wide
+              transition-all
+              duration-300
+              hover:border-white/30
+              hover:text-white
+              "
               >
                 Download Resume
-              </button>
+              </a>
             </div>
 
             {/* Social Icons */}
@@ -191,7 +192,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 };
 
