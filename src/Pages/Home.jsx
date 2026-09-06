@@ -119,7 +119,7 @@ const Home = () => {
                 View Projects
               </button>
               <a
-                href="/saifur-r-asif-resume.pdf"
+                href="/Saifur R. Asif.pdf"
                 download="Saifur R. Asif - Resume.pdf"
                 className="
               px-7 py-3.5
