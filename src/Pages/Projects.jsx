@@ -13,10 +13,10 @@ const projects = [
     {
         id: 2,
         title: "RentNest",
-        category: "Backend · Express.js/Typescript",
+        category: "Fullstack · Express.js/Next.js",
         year: "2026",
         image: "https://i.ibb.co/BVm5mXgm/Screenshot-2026-08-07-105531.png",
-        link: "https://github.com/asifforizy/RentNest",
+        link: "https://rentnest-frontend-xi.vercel.app/",
     },
     {
         id: 3,
