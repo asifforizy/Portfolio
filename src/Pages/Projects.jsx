@@ -20,11 +20,11 @@ const projects = [
     },
     {
         id: 3,
-        title: "HeroX",
-        category: "Personal · MERN",
+        title: "Wanderly",
+        category: "Wanderly — Travel Destination Explorer",
         year: "2026",
-        image: "https://i.ibb.co/WvQjxj2m/Screenshot-2026-07-02-191707.png",
-        link: "https://heroxapp.netlify.app/",
+        image: "https://i.ibb.co/TMcPxFWc/Wanderly-Travel-Website-Device-Mockup.png",
+        link: "https://wanderly-client-gules.vercel.app/",
     },
     
     {
